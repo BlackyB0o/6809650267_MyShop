@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libertinus+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Libertinus+Serif+Display&display=swap');
+.banner_display,.footer_display{
+    position: relative;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.banner_display img,.footer_display img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1c1d23;
+}
+.shop_name{
+    font-family: Cinzel;
+    font-size: 5vw;
+    margin-bottom: -8px;
+}
+.display_center_middle{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: #cbc8bb;
+    text-shadow: 2px 2px 8px #000;
+}
+.shop_type{
+    font-size: 4vw;
+    margin: 0.1vw 0 0 0;
+    font-weight: 400;
+}
+.nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1c1d23;
+}
+.nav_bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav_bar ul li a{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-size: 3vw;
+    padding: 12px 3vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c1d23;
+    justify-content: space-evenly;
+    align-items: center;
+    display:flex;
+}
+
+li {
+    float: none;
+    display: flex;
+}
+
+li a {
+    position: relative;
+    display: block;
+    color: #cbc8bb;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1c1d23;
+}
+.origin {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.product ,.origin h2,.video_section,.origin,.png_url,.contact{
+    background-image: url(resources/footer_bg.png);
+    background-color: #1c1d23;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.drinks h2,h3 ,.bakery h2,.origin h2,.origin{
+    color: #cbc8bb;
+    text-shadow:-2px 2px 0 #1c1d23;
+}
+.ice_drinks,.hot_drinks,.bakery,.drinks{
+    color: #cbc8bb;
+    text-align: center;
+    display: block;
+}
+.ice_drinks_img,.hot_drinks_img,.bakery_img {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 1vw 0;
+}
+.product img{
+    width: 105px;
+    height: 148.5px;
+    max-width: 120px;
+    min-width: 70px;
+}
+figure{
+    text-align: center;
+    color: #1c1d23;
+}
+.png_url summary,.png_url p,.contact{
+    cursor: pointer;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #cbc8bb;
+    text-shadow:-2px 2px 0 #1c1d23;
+    margin: 0 0;
+    text-align: center;
+}
+.footer_display a {
+    color: #cbc8bb; 
+}
+
+.video_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3vw 0;
+    width: 100%;
+}
+.promo_video{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
