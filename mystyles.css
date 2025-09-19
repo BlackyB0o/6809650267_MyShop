@@ -105,7 +105,7 @@ li a:hover {
 }
 .drinks h2,h3 ,.bakery h2,.origin h2,.origin{
     color: #cbc8bb;
-    text-shadow:-2px 2px 0 #1c1d23;
+    text-shadow:-1.5px 1px 0 #1c1d23;
 }
 .ice_drinks,.hot_drinks,.bakery,.drinks{
     color: #cbc8bb;
@@ -137,7 +137,7 @@ figure{
     font-size: 3vw;
     font-weight: bold;
     color: #cbc8bb;
-    text-shadow:-2px 2px 0 #1c1d23;
+    text-shadow:-1.5px 1px 0 #1c1d23;
     margin: 0 0;
     padding-bottom: 20px;
     text-align: center;
